@@ -1,0 +1,85 @@
+@font-face {
+  font-family: MyHelvetica;
+  src: local("Helvetica"),
+  local("HelveticaLTStd-BlkCond"),
+  url(../fonts/HelveticaLTStd-BlkCond.otf);
+  font-style: normal;
+}
+@font-face {
+  font-family: Lato-Light;
+  src: local("Lato"),
+  local("Lato-Light"),
+  url(../fonts/Lato-Light.ttf);
+  font-style: normal;
+}
+
+body{
+  background-color: teal;
+  font-family: MyHelvetica;
+  font-size: 16px;
+}
+h1{
+  font-family: MyHelvetica;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0.1em 0.1em rgba(51, 51, 51, 0.247);
+  color:rgb(255, 217, 0);
+}
+div{
+  font-family: Lato-Light;
+  font-size: 24px;
+  text-align: justify;
+}
+
+h2{
+  font-family: Lato-Light;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.pie{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px; 
+}
+.cuadro{
+  margin-top: -20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: auto;
+  background-color: rgb(110, 187, 187);
+  height: auto;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.cuadro2{
+  text-align: justify;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.247);
+}
+
+.push{
+  margin: 10px; 
+  background-color: rgb(21, 76, 179);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  border-radius: 10px;
+}
